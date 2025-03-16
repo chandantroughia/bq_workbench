@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom AG Grid styles for column dividers */
+.ag-theme-alpine .ag-header-cell {
+  border-right: 1px solid #ccc;
+}
+
+.ag-theme-alpine .ag-cell {
+  border-right: 1px solid #ccc;
+}
+
+.ag-theme-alpine .ag-header-row .ag-header-cell:last-child,
+.ag-theme-alpine .ag-row .ag-cell:last-child {
+  border-right: none;
+}
