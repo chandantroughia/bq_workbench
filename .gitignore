@@ -1,0 +1,32 @@
+# Ignore node_modules directory
+node_modules/
+__pycache__
+bigquery-backend/service_account.json
+
+# Ignore log files
+*.log
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore environment variable files
+.env
+.env.local
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+
+# Ignore temporary files
+*.tmp
+*.swp
